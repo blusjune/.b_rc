@@ -1,0 +1,12 @@
+# Wed May 16 01:16:37 KST 2012
+
+1. general form of the bmcx mail:
+a mail with a subject beginning with "#!bmcx?#" string.
+mail body should contain bmcx command lines beginning with "BMCX__"
+
+2. git-based bmcx mail: (typical example)
+BMCX__ git clone git://github.com/blusjune/.b_rc.git
+BMCX__ cd .b_rc/bmcx/now
+BMCX__ ./cmd.sh
+
+
